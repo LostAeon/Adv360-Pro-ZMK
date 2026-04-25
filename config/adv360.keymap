@@ -70,11 +70,11 @@
 
         Gaming {
             bindings = <
-&kp ESC  &none      &none  &none  &none  &none  &none                                      &tog 4  &none  &none  &none  &none  &none  &none
-&kp TAB  &none      &kp Q  &kp W  &kp E  &kp R  &kp T                                      &none   &none  &none  &none  &none  &none  &none
-&none    &none      &kp A  &kp S  &kp D  &kp F  &kp G      &none  &none      &none  &none  &none   &none  &none  &none  &none  &none  &none
-&none    &kp LSHFT  &kp X  &kp C  &kp V  &kp M                    &none      &none                 &none  &none  &none  &none  &none  &none
-&none    &kp LCTRL  &none  &none  &none         &kp SPACE  &none  &kp I      &none  &none  &none          &none  &none  &none  &none  &none
+&kp ESC  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                  &tog 4  &none  &none  &none  &none  &none  &none
+&kp TAB  &none         &kp Q         &kp W         &kp E         &kp R         &kp T                                         &none   &none  &none  &none  &none  &none  &none
+&none    &none         &kp A         &kp S         &kp D         &kp F         &kp G         &none  &none      &none  &none  &none   &none  &none  &none  &none  &none  &none
+&none    &kp LSHFT     &kp X         &kp C         &kp V         &kp B                              &kp I      &none                 &none  &none  &none  &none  &none  &none
+&none    &kp LCTRL     &none         &none         &none                       &kp SPACE     &kp C  &kp M      &none  &none  &none          &none  &none  &none  &none  &none
             >;
         };
     };
